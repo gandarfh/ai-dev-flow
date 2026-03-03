@@ -1,12 +1,3 @@
-Fase de PLAN para: $ARGUMENTS
+Delegate to the `architect` subagent first: research established patterns, algorithms, and libraries for $ARGUMENTS
 
-Instruções:
-1. Use EnterPlanMode para criar o plano
-2. Baseie-se na pesquisa já feita (se houver)
-3. O plano deve conter:
-   - Passos numerados de implementação
-   - Arquivos que serão criados ou modificados
-   - Estratégia de testes (quais testes, onde, como validar)
-   - Edge cases e riscos identificados
-4. Mantenha o plano conciso e acionável
-5. Aguarde aprovação antes de implementar
+After the architect returns, use EnterPlanMode to create an implementation plan based on the architect's recommendation. Wait for approval before implementing.
