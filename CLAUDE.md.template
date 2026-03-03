@@ -1,0 +1,63 @@
+# Project: [PROJECT NAME]
+
+## Overview
+
+[Brief description in 1-2 sentences]
+
+## Tech Stack
+
+- **Language**: [e.g. TypeScript, Ruby, Go]
+- **Framework**: [e.g. Next.js, Rails, Gin]
+- **Database**: [e.g. PostgreSQL, SQLite]
+- **Testing**: [e.g. Jest, RSpec, Go test]
+- **Deploy**: [e.g. Kamal, Vercel, Fly.io]
+
+## Architecture
+
+[High-level project structure]
+
+```
+src/
+├── [module A]/    # [responsibility]
+├── [module B]/    # [responsibility]
+└── [module C]/    # [responsibility]
+```
+
+## Coding Conventions
+
+- Use [snake_case | camelCase] for variables and functions
+- Use [PascalCase] for types/classes/components
+- Prefer [composition over inheritance | pure functions | etc.]
+- Import order: stdlib > external > internal
+- Max [X] lines per function, [Y] lines per file
+
+## Testing Rules
+
+- All new code MUST have tests
+- Test framework: [jest | rspec | pytest | etc.]
+- Naming: `describe("[Module]") > it("should [behavior]")`
+- Mocks only for external I/O (APIs, DB, filesystem)
+- Run `[test command]` before considering a task complete
+
+## Git Conventions
+
+- Commits in English, format: `type(scope): description`
+- Types: feat, fix, refactor, test, docs, chore
+- Branches: `feat/name`, `fix/name`, `refactor/name`
+- Never commit secrets, .env, or credentials
+
+## Current Focus
+
+[What is being developed now — update as the project evolves]
+
+## Known Issues
+
+[Known problems the agent should keep in mind]
+
+## Do NOT
+
+- Do not create documentation files unless asked
+- Do not add dependencies without confirming first
+- Do not change architecture without prior discussion
+- Do not ignore failing tests
+- Do not over-engineer — solve the current problem, not hypothetical ones
