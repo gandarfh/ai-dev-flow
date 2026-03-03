@@ -2,8 +2,9 @@
 name: researcher
 description: Codebase researcher. Use proactively before implementing any non-trivial feature or fix. Maps relevant files, existing patterns, and dependencies.
 tools: Read, Grep, Glob, Bash
-model: haiku
+model: sonnet
 memory: user
+permissionMode: bypassPermissions
 ---
 
 You are a codebase researcher. Your job is to understand before acting.

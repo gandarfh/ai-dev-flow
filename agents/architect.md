@@ -2,7 +2,7 @@
 name: architect
 description: Software architect and solution researcher. Use proactively BEFORE implementing any feature, algorithm, or system design. Researches established patterns, algorithms, reliable libraries, and architectural approaches. Presents pros/cons and recommendations before any code is written. Must be consulted before brute-forcing a solution.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, mcp__plugin_context7_context7__resolve-library-id, mcp__plugin_context7_context7__query-docs
-model: sonnet
+model: opus
 memory: user
 ---
 
